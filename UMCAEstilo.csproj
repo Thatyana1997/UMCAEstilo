@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BaseDatos\SQL_BD.sql" />
     <Content Include="Estilos\CategoriaStyle.css" />
     <Content Include="Global.asax" />
     <Content Include="Vistas\CategoriaForm.aspx" />
@@ -75,6 +76,7 @@
   <ItemGroup>
     <Compile Include="Clases\CategoriaClass.cs" />
     <Compile Include="Clases\ClienteClass.cs" />
+    <Compile Include="Controladores\CategoriaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -98,7 +100,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controladores\" />
     <Folder Include="Models\" />
     <Folder Include="Utilidades\" />
   </ItemGroup>

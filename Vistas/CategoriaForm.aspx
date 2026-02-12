@@ -21,7 +21,7 @@
                 <asp:TextBox ID="txtDescripcion" runat="server" TextMode="MultiLine"></asp:TextBox>
             </div>
             <div>
-                <asp:Button ID="btnAgregar" runat="server" Text="Agregar Categoría"   CssClass="btn-add" />
+                <asp:Button ID="btnAgregar" runat="server" Text="Agregar Categoría" OnClick="btnAgregar_Click"   CssClass="btn-add" />
             </div>
             <h2>Categorías Existentes</h2>
             <asp:GridView ID="gvCategorias" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" CssClass="gridview">
